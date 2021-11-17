@@ -1,6 +1,10 @@
+*{
+   /* border: 2px solid red; */
+}
 body{
     display: flex;
     flex-direction: column;
+    margin:0;
 }
 .first{
     display: flex;
@@ -13,39 +17,219 @@ body{
 .header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap:275px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
 }
 .header-links{
     display: flex;
     flex-direction: row;
+    gap: 20px;
 }
 .intro{
     display: flex;
+    flex:1;
+
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     margin-top: 60px;
-    gap: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+   gap: 50px;
 }
-img{
-    height: 200px;
+.intro-title{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #f9faf8;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;    
+   
+    justify-content: space-between;
+    height:200px;
+    width:400px;
+}
+.intro-explanation{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+   
+.button{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+  background:purple;
+  padding: 10px;
+  width: 70px;
+  height: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+.intro-img{
+    display: flex;
     width: 400px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    
 }
+
+
+.handImg{
+    width: 500px;
+    height:200px;
+    border-radius: 25px;
+}
+
 
 .second{
     display: flex;
+    flex-direction: column;
     background-color:white;
     justify-content: center;
+    padding-left:300px;
+    padding-right: 300px;
+    margin:20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+
+}
+.second-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    
+ 
+}
+.second-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+  
+    
+  
+    
+    /* 
+      height: 200px;
+    
+    border: solid purple 2px;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 200px;
+    height: 150px;*/ 
+    
+}
+
+.twoimgs{
+    border: solid purple 2px;
+    border-radius: 25px;
+  
+    max-width: 100%;
+    max-height: 100%;
+    height: 200px;
+    width: 200px;
 }
 
 .third{
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    align-items: center;
+    padding:50px 100px;
+    flex-wrap: wrap;
+}
+.text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 0 400px;
+}
+.quote{
+    font-size: 30px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding: 0 400px;
 }
 
 .fourth{
     display: flex;
+    justify-content: center;
+   
+}
+.box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color:purple;
+    border: solid purple 2px;
+    border-radius: 5px;
+    width: 1000px;
+    height: 100px;
+    align-items: center;
+    color: white;
+    margin:30px 0;
+  
+}
+.button-text{
+    display: flex;
+    flex-direction: column;
+    
+}
+.button-title{
+    font-weight: bold;
+    font-size: 25;
+
+}
+.button-description{
+    display: flex;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.bottom-button{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+  background:purple;
+  padding: 10px;
+  width: 70px;
+  height: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 .footer{
+    color: white;
     display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    padding:20px 0;
+    font-size: 15px;
 }
